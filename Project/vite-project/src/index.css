@@ -1,0 +1,22 @@
+@tailwind base;
+@layer base {
+  html {
+    @apply text-neutral-800;
+  }
+  html.dark {
+    @apply text-neutral-50;
+    @apply bg-neutral-800;
+  }
+}
+@tailwind components;
+@tailwind utilities;
+*::-webkit-scrollbar {
+  width: 5px;
+}
+*::-webkit-scrollbar-track {
+  background: #212121;
+}
+*::-webkit-scrollbar-thumb {
+  background: #676767;
+  border: none;
+}
